@@ -7,8 +7,8 @@ public class SwitchIfExam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("°í»çÀåÀ» È®ÀÎÇÕ´Ï´Ù.");
-		System.out.println("¼öÇè¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä >>>");
+		System.out.println("ê³ ì‚¬ì¥ ë²ˆí˜¸ë¥¼ ì•Œë ¤ì¤ë‹ˆë‹¤.");
+		System.out.println("ìˆ˜í—˜ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” >>>");
 		Scanner number = new Scanner(System.in);
 		
 		char classnum = number.next().charAt(0);
@@ -17,40 +17,40 @@ public class SwitchIfExam {
 		
 		switch(classnum) {
 		case '1' : case '2' : case '3':
-			System.out.println("Á¦1°í»çÀå");
+			System.out.println("ì œ1ê³ ì‚¬ì¥");
 			break;
 		case '4' : case '5' : case '6':
-			System.out.println("Á¦2°í»çÀå");
+			System.out.println("ì œ2ê³ ì‚¬ì¥");
 			break;
 		case '7' : case '8' : case '9':
-			System.out.println("Á¦3°í»çÀå");
+			System.out.println("ì œ3ê³ ì‚¬ì¥");
 			break;
 		default:
-			System.out.println("¾ø´Â ¼öÇè¹øÈ£ÀÔ´Ï´Ù. ´Ù½ÃÀÔ·ÂÇÏ½Ã·Á¸é yes¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("ë‹¤ì‹œì…ë ¥í•˜ì‹œë ¤ë©´ yesë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			String retry = number.next();
 			if(retry.equalsIgnoreCase("yes")) {
-				System.out.println("¼öÇè¹øÈ£¸¦ ÀçÀÔ·ÂÇØÁÖ¼¼¿ä.");
+				System.out.println("ìˆ˜í—˜ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 				char reclassnum = number.next().charAt(0);
 				
 				//System.out.println(reclassnum);
 				
 				switch (reclassnum) {
 				case '1' : case '2' : case '3':
-					System.out.println("Á¦1°í»çÀå");
+					System.out.println("ì œ1ê³ ì‚¬ì¥");
 					break;
 				case '4' : case '5' : case '6':
-					System.out.println("Á¦2°í»çÀå");
+					System.out.println("ì œ2ê³ ì‚¬ì¥");
 					break;
 				case '7' : case '8' : case '9':
-					System.out.println("Á¦3°í»çÀå");
+					System.out.println("ì œ3ê³ ì‚¬ì¥");
 					break;
 				default:
-					System.out.println("¾ø´Â ¼öÇè¹øÈ£ÀÔ´Ï´Ù.");
+					System.out.println("ì¸ì‹ì— ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
 					break;
-				}//if¹® ³» switch¹® Á¾·á
+				}
 				}//if
 				else{
-					System.out.println("°æ°í : ½ÃÇèÀÏ Àü±îÁö °í»çÀåÀ» È®ÀÎÇØÁÖ¼¼¿ä.");
+					System.out.println("ê²½ê³  : ìˆ˜í—˜ ì „ê¹Œì§€ ê³ ì‚¬ì¥ì„ í™•ì¸í•´ì£¼ì„¸ìš”.");
 					
 				} //else
 			

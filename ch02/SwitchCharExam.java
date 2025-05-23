@@ -9,7 +9,7 @@ public class SwitchCharExam {
 
 		Scanner inChar = new Scanner(System.in);
 		
-		System.out.println("È¸¿øµî±ŞÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("íšŒì›ë“±ê¸‰ì„ ì…ë ¥í•˜ì„¸ìš”.");
 		
 		char gradeChaStr = inChar.next().charAt(0);
 		
@@ -18,31 +18,31 @@ public class SwitchCharExam {
 		switch(gradeChaStr) {
 		case 'a':
 		case 'A':
-			System.out.println("¿ì¼öÈ¸¿øÀÔ´Ï´Ù.");
+			System.out.println("ìš°ìˆ˜íšŒì›ì…ë‹ˆë‹¤.");
 		break;
 		case 'b':
 		case 'B':
-			System.out.println("ÀÏ¹İÈ¸¿øÀÔ´Ï´Ù.");
+			System.out.println("ë³´í†µíšŒì›ì…ë‹ˆë‹¤.");
 			break;
 		case 'c':
 		case 'C':
-			System.out.println("»ç¾÷ÀÚÈ¸¿øÀÔ´Ï´Ù.");
+			System.out.println("ì‚¬ì—…ìíšŒì›ì…ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("È¸¿ø°¡ÀÔÇÏ½Ã·Á¸é yes¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("íšŒì›ê°€ì…í•˜ì‹œë ¤ë©´ yesë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		String newmember= inChar.next();
 		if(newmember.equalsIgnoreCase("yes")) {
-			System.out.println("È¸¿ø°¡ÀÔÀ» ÁøÇàÇÕ´Ï´Ù.");
-			System.out.println("ID¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä >>>");
+			System.out.println("íšŒì›ê°€ì…ì„ ì§„í–‰í•©ë‹ˆë‹¤.");
+			System.out.println("IDë¥¼ ì„¤ì •í•´ì£¼ì„¸ìš” >>>");
 			String id = inChar.next();
-			System.out.println(id + "´Ô È¸¿ø°¡ÀÔÀ» ÃàÇÏµå¸³´Ï´Ù.");
+			System.out.println(id + "ë‹˜ íšŒì›ê°€ì…ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 			break;
 			}
 		else {
-			System.out.println("È¸¿ø°¡ÀÔ½ÇÆĞ");
+			System.out.println("íšŒì›ê°€ì…ì‹¤íŒ¨");
 			break;
-			}//È¸¿ø °¡ÀÔ if¹® Á¾·á
-		}// switch¹® Á¾·á
+			}//È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ifï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		}// switchï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	}// main method
 
 }//class

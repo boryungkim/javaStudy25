@@ -12,13 +12,13 @@ public class SsnExam {
 		char gender =  regNo.charAt(7);
 		switch (gender) {
 		case '1': case '3' : case '5' : case '7':
-			System.out.println("³²ÀÚ");
+			System.out.println("ì—¬ì");
 			break;
 		case '2' : case '4': case '6' : case '8':
-			System.out.println("¿©ÀÚ");
+			System.out.println("ë‚¨ì");
 			break;
 		default :
-			System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("ë‹¤ì‹œì…ë ¥í•´ì£¼ì„¸ìš”");
 			break;
 		}
 		

@@ -7,21 +7,21 @@ public class SwitchNoBreakExam {
 
 		
 		int time = (int) (Math.random()* 6) + 6;
-		System.out.println("ÇöÀç½Ã°£Àº : " + time + "½Ã");
+		System.out.println("í˜„ì¬ì‹œê°„ : " + time + "ì‹œ");
 		
 		switch(time) {
 		case 6 :
-			System.out.println("¼¼¼ö¸¦ ÇÏ°í ¾ÆÄ§À» ¸Ô½À´Ï´Ù.");
+			System.out.println("ì¼ì–´ë‚˜ì„œ ì„¸ìˆ˜ë¥¼ í•©ë‹ˆë‹¤.");
 		case 7 :
-			System.out.println("Ãâ±Ù ÁØºñ¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("ì•„ì¹¨ì‹ì‚¬ë¥¼ í•©ë‹ˆë‹¤.");
 		case 8: 
-			System.out.println("¹ö½º¸¦ Å¸°í Ãâ±ÙÀ» ÇÕ´Ï´Ù.");
+			System.out.println("í•™êµì— ê°‘ë‹ˆë‹¤");
 		case 9:
-			System.out.println("¼ö¾÷ ÁØºñ¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("ìˆ˜ì—…ì„ ë“£ìŠµë‹ˆë‹¤.");
 		case 10:
-			System.out.println("°á¼®ÀÚ¿¡°Ô ÀüÈ­¸¦ ÇÕ´Ï´Ù.");
+			System.out.println(".");
 		default:
-			System.out.println("ÀÚ¹Ù¸¦ ¿­½ÉÈ÷ °¡¸£Ä¨´Ï´Ù.");
+			System.out.println("ï¿½Ú¹Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¨ï¿½Ï´ï¿½.");
 		}
 	}
 

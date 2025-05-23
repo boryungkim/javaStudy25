@@ -7,7 +7,7 @@ public class IfSsnExam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("ÁÖ¹Î¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ì£¼ë¯¼ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		Scanner in = new Scanner(System.in);
 		
 		String ssn = in.next();
@@ -16,32 +16,32 @@ public class IfSsnExam {
 		int num = Character.getNumericValue(ssn2);
 		
 		if(num % 2 == 0) {
-			System.out.println("¿©ÀÚ");
+			System.out.println("ì—¬ì");
 		} else if (num % 2 == 1) {
-			System.out.println("³²ÀÚ");
+			System.out.println("ë‚¨ì");
 		} else {
-			System.out.println("´Ù½Ã ÀÛ¼ºÇØÁÖ¼¼¿ä");
-		} //if¹® Á¾·á
+			System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
+		} //ifì¢…ë£Œ
 		
 		int year = Integer.parseInt(ssn.substring(0,2));
 		if (num == 1 || num == 2 || num == 5 || num ==6 ) {
-			System.out.println("³ªÀÌ´Â" + (2025 - (1900 + year) +1));
+			System.out.println("ë‚˜ì´ : " + (2025 - (1900 + year) +1));
 		} else if (num == 3 || num == 4|| num == 7 || num == 8) {
-			System.out.println("³ªÀÌ´Â" + (2025 - (2000 + year) +1));
+			System.out.println("ë‚˜ì´ : " + (2025 - (2000 + year) +1));
 		} else {
-			System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
-		}//if¹® Á¾·á
+			System.out.println("ë‹¤ì‹œ ì‘ì„±í•´ì£¼ì„¸ìš”");
+		}//if ì¢…ë£Œ
 		int month = Integer.parseInt(ssn.substring(2,4));
 		if(month <=0 || month >= 13) {
-			System.out.println("´Ù½Ã ÀÛ¼ºÇØÁÖ¼¼¿ä");
+			System.out.println("ë‹¤ì‹œ ì‘ì„±í•´ì£¼ì„¸ìš”");
 		} else if(month >= 3 && month <= 5) {
-			System.out.println("º½¿¡ ÅÂ¾î³µ½À´Ï´Ù.");
+			System.out.println("ë´„ì— íƒœì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		} else if(month>=6 && month <= 8) {
-			System.out.println("¿©¸§¿¡ ÅÂ¾î³µ½À´Ï´Ù.");
+			System.out.println("ì—¬ë¦„ì— íƒœì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		} else if(month>=9 && month <= 11) {
-			System.out.println("°¡À»¿¡ ÅÂ¾î³µ½À´Ï´Ù.");
+			System.out.println("ê°€ì„ì— íƒœì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("°Ü¿ï¿¡ ÅÂ¾î³µ½À´Ï´Ù.");
+			System.out.println("ê²¨ìš¸ì— íƒœì–´ë‚¬ìŠµë‹ˆë‹¤.");
 		}
 		
 	}

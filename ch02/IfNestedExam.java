@@ -7,22 +7,22 @@ public class IfNestedExam {
 		
 		int score = (int)(Math.random()*20) + 81;
 		
-		System.out.println("�������� : " + score);
+		System.out.println(" 점수 : " + score);
 		String grade;
 		if (score >=90) {
 			if(score>=95) {
-				grade = "A+";ㄴ
+				grade = "A+";
 			} else {
 				grade = "A";
-			}//if�� �� else ����
-		}//90 if ����
+			}//
+		}//90 if 종료
 		else {
 			if(score>=85) {
 				grade = "B+";
-			}//else �� if ����
+			}
 			else {
 				grade = "B";
-			}//else �� else ����
+			}
 		}//else
 
 	}//method
